@@ -1,3 +1,16 @@
 body {
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 83%);
+    font-family: Tahoma, Verdana, sans-serif;
 }
+
+#tel {
+    display: inline;
+    margin-left: 10px;
+}
+
+.img-fluid {
+    max-height: 25rem;
+}
+
+
+
