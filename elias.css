@@ -10,8 +10,6 @@ body {
 
 .img-fluid {
     height: 30rem;
-    
-
 }
 
 #box1 {
@@ -42,6 +40,49 @@ body {
 
 .card-img-top {
     height: 35%;
+    margin-right: 0;
+}
+
+.card-body {
+    height: 13rem;
+    overflow: auto;
+}
+
+
+#reference  {
+    height: 20rem;
+    background-image: url("img/reference.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color:white;
+}
+
+
+.panel-default {
+    background: rgb(163, 178, 197);
+    opacity: 0.7;
+    color:black;
+    font-weight: 600;
+}
+
+#kontakt {
+    background-color:rgb(32, 31, 31);
+    color: white;
+}
+
+.email {
+    text-decoration: none;
+    color: white;
+}
+
+.email:hover{
+    text-decoration: none;
+    color:gray;
+}
+
+.footer {
+    background-color:rgb(32, 31, 31);
 }
 
 
