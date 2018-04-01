@@ -1,53 +1,79 @@
 body {
-    background-color: fff;
+    background-color: rgb(238, 219, 180);
     font-family: Tahoma, Verdana, sans-serif;
 }
 
-#tel {
-    display: inline;
-    margin-left: 10px;
+
+.navbar {
+    background-color: #769835;
 }
 
-.img-fluid {
-    height: 30rem;
+
+.navbar li {
+    font-size: 125%;
+}
+
+#cards .img-fluid {
+    height: 35%;
+}
+
+
+.carousel-item img{
+    max-height: 500px;
+    min-width: 40%;
+    max-width: 100%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 2rem;
+  width: 2rem;
+  background-size: 100%, 100%; 
 }
 
 #box1 {
-    padding: 2rem;
     font-size: 150%;
-    font-weight: 900;
-    /*background-image: url("img/redpaint2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom center;*/
+    font-weight: 800;
 }
 
-
+#box1 h3 {
+    font-weight: 800;
+}
 
 #box2 {
-    background: rgb(32, 31, 31);
+    background: #769835;
     color: white;
     padding: 2rem;
-    font-size: 150%;
+    font-size: 135%;
     line-height: 175%;
-    
+ 
 }
 
 #box2 i {
     background-color: black;
     border-radius: 50%;
+    color:rgb(238, 219, 180);
 }
 
+.card {
+    background: rgb(238, 219, 180);
+}
+
+
 .card-img-top {
-    height: 35%;
-    margin-right: 0;
+    max-height: 80%;
 }
 
 .card-body {
-    height: 13rem;
+    height: 10rem;
     overflow: auto;
 }
 
+#cards .col-md-3 {
+    padding: 0;
+    padding-left: 2px;
+    padding-right: 2px;  
+}
 
 #reference  {
     height: 20rem;
@@ -67,8 +93,18 @@ body {
 }
 
 #kontakt {
-    background-color:rgb(32, 31, 31);
+    background-color:#769835;
     color: white;
+}
+
+.greenbtn {
+    background: #769835;
+    color: white;
+}
+
+.greenbtn:hover {
+    background: #5a8015;
+    color: rgb(238, 219, 180);
 }
 
 .email {
@@ -78,11 +114,13 @@ body {
 
 .email:hover{
     text-decoration: none;
-    color:gray;
+    color: rgb(238, 219, 180);
 }
 
 .footer {
-    background-color:rgb(32, 31, 31);
+    background-color:#769835;
+    padding: 1rem;
+    color: white;
 }
 
 
