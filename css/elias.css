@@ -1,6 +1,7 @@
 body {
     background-color: rgb(238, 219, 180);
     font-family: Tahoma, Verdana, sans-serif;
+    padding-top: 7rem;
 }
 
 
@@ -77,7 +78,7 @@ nav .nav-item {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    color:white;
+    color:fff;
 }
 
 
