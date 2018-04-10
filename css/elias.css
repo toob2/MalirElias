@@ -74,7 +74,7 @@ nav .nav-item {
 
 #reference  {
     min-height: 20rem;
-    background-image: url("img/reference.jpg");
+    background-image: url("../img/reference.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -87,7 +87,7 @@ nav .nav-item {
     opacity: 0.7;
     color:black;
     font-weight: 600;
-    max-height: 9rem;
+    max-height: 12rem;
 }
 
 #kontakt {
